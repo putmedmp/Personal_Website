@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Mateusz Polakiewicz | Software Developer</title>
+</head>
+<body>
+    <!-- Home -->
+    <header id="home" class="showcase-container">
+        <nav id="navbar" class="top">
+            <img id="logo" class="logo" src="./img/MyLogo.png" alt="">
+            <button id="hamburger" class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+                <ul id="nav-ul" class="nav-ul">
+                    <li><a href="https://github.com/putmedmp" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mateusz-polakiewicz-bb1201201/" target="_blank"><i class="fab fa-linkedin "></i></a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        <div class="content-container">
+            <div class="content">
+                <h1>Web Developer & Software Engineer</h1>
+                <a href="#about" class="btn btn-purple btn-shaddow">Learn More</a>
+            </div>
+        </div>
+        </header>
+        <div id="about">
+            <!-- About: Icons -->
+            <div class="about-icons bg-light">
+                <div class="flex-items">
+                    <div>
+                        <i class="fas fa-brain fa-3x"></i>
+                        <div>
+                            <h3>Creativity</h3>
+                            <p>Having a lot of ideas to pursue</p>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fas fa-code fa-4x"></i>
+                        <div>
+                            <h3>Technology</h3>
+                            <p>Only the latest technologies are used by me</p>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fas fa-chart-line fa-3x"></i>
+                        <div>
+                            <h3>Development</h3>
+                            <p>Educating myself every day to provide best services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About: Me -->
+            <div class="flex-container">
+                <div class="column-a">
+                    <img src="./img/Me.jpg" alt="">
+                </div>
+                <div class="column-b bg-blue">
+                    <h3>My name is Mateusz Polakiewicz</h3>
+                    <h2>Creating & Learninig is my Passion</h2>
+                    <p>I am a young and ambitious programmer. In my work, I focus on the continuous use of the latest technology to create good-looking and working websites. Technology is my biggest hobby and I always try to keep up to date and implement the best possible solutions for my customers.</p>
+                    <p>The technologies I know include HTML, CSS, SASS, JS, Bootstrap, node.js, Angular, but I am open for further development and ready to learn at any time. If you want to learn more about my skills see or even download my CV by clicking on the "Download my CV" button.</p>
+                    <p>I love my work so if you think I deserve support recommend me or contact me and let me demonstrate it by creating the perfect website for you.</p>
+                    <a href="https://drive.google.com/file/d/1qaAtL-QHN1IIgQeM1MGvCwhT6IWHYN_f/view?usp=sharing" target="_blank" class="btn btn-blue btn-border">Download my CV</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technologies -->
+        <section class="technologies">
+            <h2>Familiar Technologies</h2>
+            <div class="technologies-container">
+                <ul class="flex-items grid-container">
+                    <li><i class="fab fa-html5 fa-3x"></i></li>
+                    <li><i class="fab fa-css3-alt fa-3x"></i></li>
+                    <li><i class="fab fa-sass fa-3x"></i></li>
+                    <li><i class="fab fa-js-square fa-3x"></i></li>
+                    <li><i class="fab fa-python fa-3x"></i></li>
+                    <li><i class="fab fa-java fa-3x"></i></li>
+                    <li><i class="fab fa-windows fa-3x"></i></li>
+                    <li class="help"><i class="fab fa-linux fa-3x"></i></li>       
+
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Contact -->
+        <section id="contact" class="flex-container">
+            <div class="column-b bg-purple">
+                <h2>Contact Me</h2>
+                <form>
+                    <div class="text-fields">
+                      <input
+                        type="text"
+                        class="text-input name-input"
+                        placeholder="Name"
+                        name="name"
+                      />
+                      <input
+                        type="text"
+                        class="text-input subject-input"
+                        placeholder="Subject"
+                        name="subject"
+                      />
+                      <input
+                        type="email"
+                        class="text-input email-input"
+                        placeholder="Email Address"
+                        name="email"
+                      />
+                      <input
+                        type="text"
+                        class="text-input phone-input"
+                        placeholder="Phone Number"
+                        name="phone"
+                      />
+                      <textarea
+                        class="text-input message-input"
+                        placeholder="Enter Message"
+                        name="message"
+                      ></textarea>
+                      <div>
+                        <div data-netlify-recaptcha="true"></div>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn-purple">Submit</button>
+                  </form>
+            </div>
+            <div class="column-a">
+            <img src="img/Desk2.png" alt="">
+            </div>
+        </div>
+        </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-social">
+            <p class="desktop-copyright">Copyright MIT &copy; 2021</p>
+            <div class="footer-links">
+                <a href="#">mateusz.polakiewicz.contact@gmail.com</a>
+                <a href="https://www.linkedin.com/in/mateusz-polakiewicz-bb1201201/" target="_blank"><i class="fab fa-linkedin footer-icons"></i></a>
+                <a href="https://github.com/putmedmp" target="_blank"><i class="fab fa-github-square footer-icons"></i></a>
+            </div>
+            <p class="mobile-copyright">Copyright MIT &copy; 2021</p>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/smoothscroll.js"></script>
+</body>
+</html>
