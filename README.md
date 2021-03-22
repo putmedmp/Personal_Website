@@ -12,7 +12,7 @@
 ## Overview
 [Here is link](https://mpolakiewicz.com/) to my personal website. I also attached a screenshot of the showcase on the site:
 
-![Website](img/website.png)
+![Website](https://github.com/putmedmp/My_Own_Website/blob/master/img/Website.PNG?raw=true)
 
 ---
 
